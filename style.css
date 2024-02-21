@@ -1,16 +1,19 @@
-*{
+* {
     box-sizing: border-box;
 }
-body{
+
+body {
     margin: 0%;
     padding: 0%;
 }
-#header-main{
+
+#header-main {
     background-image: url("https://rj-burgers.netlify.app/assets/images/hero-bg.jpg");
     margin: 0%;
     padding: 0;
 }
-nav{
+
+nav {
     position: fixed;
     top: 0;
     left: 0;
@@ -18,127 +21,146 @@ nav{
     width: 100%;
     height: auto;
     background-color: #ffffff;
-    box-shadow: 0px 0px 5px 5px rgb(101, 87, 87) ;
+    box-shadow: 0px 0px 5px 5px rgb(101, 87, 87);
     z-index: 5;
 
 }
 
-#hd1{
+#hd1 {
     color: rgb(0, 0, 0);
     font-size: 23px;
     font-family: "Rubik", sans-serif;
     font-weight: 900;
     padding: 10px 0px 10px 70px;
 
-} 
-#hd1 span{
+}
+
+#hd1 span {
     color: orange;
 }
-#dv1{
+
+#dv1 {
     padding: 10px 70px 10px 0px;
     display: flex;
     justify-content: space-between;
 }
-#ul1{
+
+#ul1 {
     list-style-type: none;
     display: flex;
     gap: 25px;
     align-items: center;
-    
+
 }
 
-.a1{
+.a1 {
     text-decoration: none;
     color: rgb(0, 0, 0);
 }
-#btn1{
-    background:none;
+
+#btn1 {
+    background: none;
     border: none;
 }
-#btn2{
+
+#btn2 {
     background-color: #ff8d29;
     border: none;
     padding: 10px 35px 10px 35px;
 }
-#btn2:hover{
+
+#btn2:hover {
     background-color: black;
     cursor: pointer;
 }
-#img1{
+
+#img1 {
     padding: 0%;
     margin: 0%;
 }
-#A1{
+
+#A1 {
     color: rgb(0, 0, 0);
     text-decoration: none;
 }
-#A2{
+
+#A2 {
     color: rgb(255, 255, 255);
     text-decoration: none;
     /* font-weight: bolder; */
     /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
 }
+
 /* nav end */
-#bg-section{
+#bg-section {
     margin-top: 110px;
     display: flex;
     /* align-items: space-between; */
-    
+
 }
-#bg-hero{
+
+#bg-hero {
     overflow: hidden;
     /* width: 2000px; */
 }
-#hd2{
+
+#hd2 {
     /* margin-top: 175px; */
     color: #ff8d29;
-    font-family: "Shadows Into Light",cursive;
+    font-family: "Shadows Into Light", cursive;
     font-weight: lighter;
 }
-#hd3{
+
+#hd3 {
     color: wheat;
     font-weight: bolder;
-    font-size:42px;
+    font-size: 42px;
     font-family: "Roboto", sans-serif;
     margin: 0%;
 }
-#dv3{
-  padding-left: 70px;
-  margin-top: 100px;
-  margin-bottom: 100px;
+
+#dv3 {
+    padding-left: 70px;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
-#pr1{
+
+#pr1 {
     color: wheat;
     font-size: 25px;
     font-family: "Roboto", sans-serif;
 }
-#btn3{
+
+#btn3 {
     background-color: #ff8d29;
     border: none;
     padding: 10px 20px 10px 20px;
 }
-#btn3:hover{
+
+#btn3:hover {
     background-color: black;
     cursor: pointer;
 }
-#A3{
+
+#A3 {
     color: white;
     font-family: "Roboto", sans-serif;
     text-decoration: none;
     font-weight: bold;
 
 }
+
 /* #bg-banner{
     position: relative;
     top: 50px;
     left: 500px;
     z-index: 0;
     overflow: hidden; */
-    /* width: 410px;
+/* width: 410px;
     height: 410px; */
-    /* left: -100px; */
+/* left: -100px; */
 
-#img-div{
+#img-div {
     position: relative;
     /* top: 50px; */
     left: 450px;
@@ -146,151 +168,177 @@ nav{
     /* overflow: hidden; */
     margin-top: 100px;
 }
+
 /* header end */
-#dv4{
+#dv4 {
     display: flex;
     gap: 10px;
-    
+
 }
-.DV-1{
-   text-align: center;
-   background-color: #a24c05;
-   color: white;
-   padding: 20px;
-   margin: 20px;
-   font-weight: bolder;
-   font-family: "Rubik", sans-serif;
-   
+
+.DV-1 {
+    text-align: center;
+    background-color: #a24c05;
+    color: white;
+    padding: 20px;
+    margin: 20px;
+    font-weight: bolder;
+    font-family: "Rubik", sans-serif;
+
 }
-.DV-1:hover{
+
+.DV-1:hover {
     transform: scale(1.15);
     transition: 0.5s;
     cursor: pointer;
-    
+
 }
-.DV-2{
+
+.DV-2 {
     overflow: hidden;
 }
+
 /* section end */
-#dv6{
+#dv6 {
     background-image: url("https://rj-burgers.netlify.app/assets/images/hero-bg.jpg");
     display: flex;
     /* padding-top: 20px; */
     /* margin-top: 20px; */
     /* justify-content: space-between; */
-    
+
     /* overflow: hidden; */
 }
-#sale1{
+
+#sale1 {
     width: 200px;
     height: 200px;
     position: relative;
     top: 180px;
     left: 220px;
     z-index: 4;
-   
+
 }
-#hero1{
+
+#hero1 {
     width: 1000px;
     position: relative;
     top: 60px;
     z-index: 1;
 }
-#sale1:hover{
+
+#sale1:hover {
     transform: scale(1.5);
     transition: 1s;
 }
-#dv5{
+
+#dv5 {
     padding-left: 70px;
     margin-top: 140px;
 }
-#hd5{
+
+#hd5 {
     color: white;
     font-weight: bold;
     font-size: 40px;
     font-family: "Rubik", sans-serif;
 }
-#hd5 span{
+
+#hd5 span {
     color: #ff8d29;
 }
-#pr2{
+
+#pr2 {
     color: white;
     font-family: "Rubik", sans-serif;
     font-size: 15px;
     font-weight: bold;
 }
-#btn4{
+
+#btn4 {
     padding: 10px 30px 10px 30px;
     background-color: #ff8d29;
     border: none;
 }
-#a4{
+
+#a4 {
     text-decoration: none;
     color: white;
     font-weight: bold;
 }
-#btn4:hover{
+
+#btn4:hover {
     background-color: black;
 }
-#des1{
+
+#des1 {
     width: 100%;
     height: 20px;
     position: relative;
     top: 650px;
 }
-#des2{
+
+#des2 {
     width: 100%;
     height: 20px;
     position: relative;
     top: -652px;
 }
+
 /* sec 2 end */
-#end-sec{
+#end-sec {
     text-align: center;
     font-family: "Rubik", sans-serif;
     background-color: #f9f6f0;
 
 }
-#hd7{
+
+#hd7 {
     color: red;
     padding-top: 30px;
 }
+
 #hd8 {
     color: black;
 }
-#hd8 span{
+
+#hd8 span {
     color: #ff8d29 !important;
 }
-#pr4{
+
+#pr4 {
     color: grey;
 }
-#dv9{
+
+#dv9 {
     display: flex;
-    
+
     /* justify-content: space-around; */
     gap: 20px;
     padding: 60px;
 }
-#dv10{
+
+#dv10 {
     width: fit-content;
     height: auto;
     overflow: hidden;
     background-color: white;
     text-align: left;
     box-shadow: 0px 0px 2px 2px rgb(56, 54, 54);
-    
+
 
 }
-#dv11{
+
+#dv11 {
     width: fit-content;
     height: auto;
     overflow: hidden;
     background-color: white;
     text-align: left;
     box-shadow: 0px 0px 2px 2px rgb(56, 54, 54);
-    
+
 }
-#dv12{
+
+#dv12 {
     width: fit-content;
     height: auto;
     overflow: hidden;
@@ -298,39 +346,48 @@ nav{
     text-align: left;
     box-shadow: 0px 0px 2px 2px rgb(56, 54, 54);
 }
-.DV-5{
+
+.DV-5 {
     padding-left: 20px;
 }
-.a10{
+
+.a10 {
     text-decoration: none;
     color: black;
 }
-.a10:hover{
- color: #ff8d29;
+
+.a10:hover {
+    color: #ff8d29;
 }
+
 /* footer start */
-footer{
+footer {
     background-image: url("https://rj-burgers.netlify.app/assets/images/footer-illustration.png");
     padding: 120px 100px 120px 100px;
+    background-repeat: no-repeat;
 }
-#dv13{
+
+#dv13 {
     display: flex;
     justify-content: space-around;
     gap: 100px;
     /* margin-top: 100px; */
 }
-#foot-btn{
+
+#foot-btn {
     background-color: #ff8d29;
     border: none;
     padding: 10px 30px 10px 30px;
     margin-top: 20px;
 }
-#foot-link{
+
+#foot-link {
     text-decoration: none;
     color: white;
     font-weight: bold;
 }
-#copy-div{
+
+#copy-div {
     text-align: center;
     color: grey;
     background-color: white;
@@ -338,111 +395,257 @@ footer{
     font-weight: bold;
     font-family: "Rubik", sans-serif;
 }
+
+#form-tab {
+    border: 1px solid black;
+    background-color: white;
+    padding: 30px;
+}
+
+#social-tab {
+    width: 39%;
+}
+
 @media screen and (min-width:0px)and (max-width:754px) {
-    #ul1{
+    #ul1 {
         flex-direction: column;
         gap: 10px;
     }
-    #hd1{
+
+    #hd1 {
         padding: 0 0 0 10px;
         text-align: center;
     }
 
-    #dv1{
+    #dv1 {
         flex-direction: column;
     }
 }
+
 @media screen and (min-width:0px)and (max-width:1506px) {
-    #img-div{
+    #img-div {
         /* display: none; */
         width: 400px;
         left: 300px;
     }
 }
+
 @media screen and (min-width:0px)and (max-width:1550px) {
-    #img-div{
+    #img-div {
         /* display: none; */
         width: 400px;
         left: 200px;
     }
 }
+
 @media screen and (min-width:0px)and (max-width:1332px) {
-    #img-div{
+    #img-div {
         display: none;
         /* width: 400px; */
         /* left: 200px; */
     }
 }
+
 @media screen and (min-width:0px)and (max-width:1100px) {
-    #bg-hero{
+    #bg-hero {
         display: none;
         /* width: 400px; */
         /* left: 200px; */
     }
 }
+
 @media screen and (min-width:0px)and (max-width:754px) {
-    #bg-section{
+    #bg-section {
         margin-top: 300px;
         /* width: 400px; */
         /* left: 200px; */
     }
 }
+
 @media screen and (min-width:0px)and (max-width:1508px) {
-    #dv4{
+    #dv4 {
         flex-direction: column;
-        
+
         align-items: center;
     }
 }
+
 @media screen and (min-width:0px)and (max-width:1508px) {
-    .DV-1{
+    .DV-1 {
         /* flex-direction: column; */
         width: min-content;
         height: auto;
         /* justify-content: center; */
     }
 }
-@media screen and (min-width:0px)and (max-width:1508px) {
-    .DV-2{
-/*         
-        width: max-content;
-        height: auto; */
-        
-    }
-}
+
 @media screen and (min-width:0px)and (max-width:1210px) {
-   #des1{
-    top: 550px;
-   }
+    #des1 {
+        top: 550px;
+    }
 }
+
 @media screen and (min-width:0px)and (max-width:1212px) {
-    #des2{
-     top: 550px;
+    #des2 {
+        top: 550px;
     }
- }
- @media screen and (min-width:0px)and (max-width:1209px) {
-    #des1{
-     
-     display: none !important;
+}
+
+@media screen and (min-width:0px)and (max-width:1210px) {
+    #des1 {
+
+        display: none !important;
     }
- }
- @media screen and (min-width:0px)and (max-width:1209px) {
-    #des2{
-     
-     display: none !important;
+}
+
+@media screen and (min-width:0px)and (max-width:1209px) {
+    #des2 {
+
+        display: none !important;
     }
- }
- @media screen and (min-width:0px)and (max-width:1230px) {
-    #dv6{
-     flex-direction: column;
-     align-items: center;
-     padding: 0;
-     /* display: none !important; */
+}
+
+@media screen and (min-width:0px)and (max-width:1209px) {
+    #dv6 {
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+
     }
- }
- @media screen and (min-width:0px)and (max-width:1230px) {
-    #dv5{
-  margin-top: 20px;
-     /* display: none !important; */
+}
+
+@media screen and (min-width:0px)and (max-width:1209px) {
+    #ds1 {
+        /* width: 500p; */
+        height: 45vh;
+
     }
- }
+}
+
+@media screen and (min-width:0px)and (max-width:568px) {
+    #ds1 {
+        /* width: 500p; */
+        height: 58vh;
+
+    }
+}
+
+@media screen and (min-width:0px)and (max-width:1209px) {
+    #dv5 {
+        margin-top: 20px;
+        padding: 25px;
+        text-align: center;
+        /* display: none !important; */
+    }
+}
+
+@media screen and (min-width:0px)and (max-width:1209px) {
+    #hero1 {
+        width: 400px;
+        top: -200px;
+        /* display: none !important; */
+    }
+}
+
+@media screen and (min-width:0px)and (max-width:1209px) {
+    #sale1 {
+        /* width: 500px; */
+        /* top: -200px; */
+        left: 20px;
+        /* display: none !important; */
+    }
+}
+
+@media screen and (min-width:0px)and (max-width:1200px) {
+    #dv9 {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+}
+
+@media screen and (min-width:0px)and (max-width:1200px) {
+    #dv10 {
+        width: fit-content;
+        height: auto;
+    }
+}
+
+@media screen and (min-width:0px)and (max-width:1200px) {
+    #ig1 {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media screen and (min-width:0px)and (max-width:1200px) {
+    #dv11 {
+        width: fit-content;
+        height: auto;
+    }
+}
+
+@media screen and (min-width:0px)and (max-width:1200px) {
+    #ig2 {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media screen and (min-width:0px)and (max-width:1200px) {
+    #dv12 {
+        width: fit-content;
+        height: auto;
+    }
+}
+
+@media screen and (min-width:0px)and (max-width:1200px) {
+    #ig3 {
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+@media screen and (min-width: 0px) and (max-width: 1212px) {
+    #des2 {
+        top: 550px;
+        display: none;
+    }
+}
+
+@media screen and (min-width: 0px) and (max-width: 1212px) {
+    .DV-5 {
+        padding: 5px;
+    }
+}
+
+/* footer */
+@media screen and (min-width: 0px) and (max-width: 1346px) {
+    #dv13 {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+    }
+}
+
+@media screen and (min-width: 0px) and (max-width: 1346px) {
+    footer {
+        padding: 20px 30px 20px 30px;
+    }
+}
+
+@media screen and (min-width: 0px) and (max-width: 1346px) {
+    #form-tab {
+        /* padding: 50px; */
+        padding: 0 0 10px 10px;
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media screen and (min-width: 0px) and (max-width: 1346px) {
+    #tab-1 {
+        padding: 0;
+    }
+}
