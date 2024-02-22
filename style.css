@@ -525,7 +525,7 @@ footer {
 @media screen and (min-width:0px)and (max-width:568px) {
     #ds1 {
         /* width: 500p; */
-        height: auto;
+        height: min-content;
 
     }
 }
@@ -541,8 +541,8 @@ footer {
 
 @media screen and (min-width:0px)and (max-width:1209px) {
     #hero1 {
-        width: 400px;
-        top: -200px;
+        width: 250px;
+        top: -100px;
         /* display: none !important; */
     }
 }
@@ -551,6 +551,10 @@ footer {
     #sale1 {
         /* width: 500px; */
         /* top: -200px; */
+        width: 80px;
+        height: 80px;
+        top: 40px;
+
         left: 20px;
         /* display: none !important; */
     }
@@ -639,8 +643,21 @@ footer {
     #form-tab {
         /* padding: 50px; */
         padding: 0 0 10px 10px;
-        width: 100%;
+        width: min-content;
         height: auto;
+    }
+}
+@media screen and (min-width: 0px) and (max-width: 1346px) {
+    textarea {
+        width: 150px;
+        
+    }
+}
+@media screen and (min-width: 0px) and (max-width: 476px) {
+    #tr1, #tr2 {
+        display: flex;
+        flex-direction: column;
+        
     }
 }
 
